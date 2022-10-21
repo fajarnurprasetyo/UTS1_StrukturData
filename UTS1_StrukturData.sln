@@ -8,9 +8,7 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Pendulum", "Pendulum.vcxpro
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Snake", "Snake.vcxproj", "{CD66B33E-0CA0-4CEC-B184-60CECD236595}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Pursuit", "Pursuit.vcxproj", "{5AAB9B69-0549-4E05-A9FE-B3A1076244EC}"
-EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Pursuit", "AsciiFaceCam.vcxproj", "{9438B9B8-80AF-4C50-BFBF-40DE12271F0C}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "AsciiFaceCam", "AsciiFaceCam.vcxproj", "{9438B9B8-80AF-4C50-BFBF-40DE12271F0C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -44,14 +42,6 @@ Global
 		{CD66B33E-0CA0-4CEC-B184-60CECD236595}.Release|Win32.Build.0 = Release|Win32
 		{CD66B33E-0CA0-4CEC-B184-60CECD236595}.Release|x64.ActiveCfg = Release|x64
 		{CD66B33E-0CA0-4CEC-B184-60CECD236595}.Release|x64.Build.0 = Release|x64
-		{5AAB9B69-0549-4E05-A9FE-B3A1076244EC}.Debug|Win32.ActiveCfg = Debug|Win32
-		{5AAB9B69-0549-4E05-A9FE-B3A1076244EC}.Debug|Win32.Build.0 = Debug|Win32
-		{5AAB9B69-0549-4E05-A9FE-B3A1076244EC}.Debug|x64.ActiveCfg = Debug|x64
-		{5AAB9B69-0549-4E05-A9FE-B3A1076244EC}.Debug|x64.Build.0 = Debug|x64
-		{5AAB9B69-0549-4E05-A9FE-B3A1076244EC}.Release|Win32.ActiveCfg = Release|Win32
-		{5AAB9B69-0549-4E05-A9FE-B3A1076244EC}.Release|Win32.Build.0 = Release|Win32
-		{5AAB9B69-0549-4E05-A9FE-B3A1076244EC}.Release|x64.ActiveCfg = Release|x64
-		{5AAB9B69-0549-4E05-A9FE-B3A1076244EC}.Release|x64.Build.0 = Release|x64
 		{9438B9B8-80AF-4C50-BFBF-40DE12271F0C}.Debug|Win32.ActiveCfg = Debug|Win32
 		{9438B9B8-80AF-4C50-BFBF-40DE12271F0C}.Debug|Win32.Build.0 = Debug|Win32
 		{9438B9B8-80AF-4C50-BFBF-40DE12271F0C}.Debug|x64.ActiveCfg = Debug|x64

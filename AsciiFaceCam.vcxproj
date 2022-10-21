@@ -27,7 +27,7 @@
     <ProjectGuid>{9438B9B8-80AF-4C50-BFBF-40DE12271F0C}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
     <RootNamespace>UTS1_StrukturData</RootNamespace>
-    <ProjectName>Pursuit</ProjectName>
+    <ProjectName>AsciiFaceCam</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
@@ -200,8 +200,8 @@
     <ClInclude Include="resource.h" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="src\Pursuit.cpp" />
-    <ClCompile Include="src\PursuitApp.cpp" />
+    <ClCompile Include="src\AsciiFaceCam.cpp" />
+    <ClCompile Include="src\AsciiFaceCamApp.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ProjectExtensions>

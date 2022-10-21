@@ -16,10 +16,10 @@
     <ClInclude Include="resource.h" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="src\Pursuit.cpp">
+    <ClCompile Include="src\AsciiFaceCam.cpp">
       <Filter>src</Filter>
     </ClCompile>
-    <ClCompile Include="src\PursuitApp.cpp">
+    <ClCompile Include="src\AsciiFaceCamApp.cpp">
       <Filter>src</Filter>
     </ClCompile>
   </ItemGroup>

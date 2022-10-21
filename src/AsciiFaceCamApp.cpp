@@ -22,6 +22,7 @@ public:
 		font.load("fonts/courier.ttf", 9);
 
 		asciiCharacters = string("  ..,,,'''``--_:;^^**""=+<>iv%&xclrs)/){}I?!][1taeo7zjLunT#@JCwfy325Fp6mqSghVd4EgXPGZbYkOA8U$KHDBWNMR0Q");
+
 	}
 
 	void update() {
@@ -33,7 +34,7 @@ public:
 
 		ofSetColor(255, 255, 255, videoAlphaValue);
 
-		vidGrabber.draw(0, 0);
+		//vidGrabber.draw(0, 0);
 
 		ofPixelsRef pixelsRef = vidGrabber.getPixels();
 
