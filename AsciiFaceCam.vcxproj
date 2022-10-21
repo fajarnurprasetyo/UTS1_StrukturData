@@ -24,7 +24,7 @@
     <TargetPlatformVersion>$(WindowsTargetPlatformVersion)</TargetPlatformVersion>
   </PropertyGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{5AAB9B69-0549-4E05-A9FE-B3A1076244EC}</ProjectGuid>
+    <ProjectGuid>{9438B9B8-80AF-4C50-BFBF-40DE12271F0C}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
     <RootNamespace>UTS1_StrukturData</RootNamespace>
     <ProjectName>Pursuit</ProjectName>

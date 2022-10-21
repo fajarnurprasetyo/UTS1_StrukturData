@@ -19,7 +19,26 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="src\ImageFaceCam2Ascii.cpp" />
+    <ClCompile Include="..\..\..\..\..\of_v0.11.2_vs2017_release\addons\ofxOpenCv\src\ofxCvColorImage.cpp" />
+    <ClCompile Include="..\..\..\..\..\of_v0.11.2_vs2017_release\addons\ofxOpenCv\src\ofxCvContourFinder.cpp" />
+    <ClCompile Include="..\..\..\..\..\of_v0.11.2_vs2017_release\addons\ofxOpenCv\src\ofxCvFloatImage.cpp" />
+    <ClCompile Include="..\..\..\..\..\of_v0.11.2_vs2017_release\addons\ofxOpenCv\src\ofxCvGrayscaleImage.cpp" />
+    <ClCompile Include="..\..\..\..\..\of_v0.11.2_vs2017_release\addons\ofxOpenCv\src\ofxCvHaarFinder.cpp" />
+    <ClCompile Include="..\..\..\..\..\of_v0.11.2_vs2017_release\addons\ofxOpenCv\src\ofxCvImage.cpp" />
+    <ClCompile Include="..\..\..\..\..\of_v0.11.2_vs2017_release\addons\ofxOpenCv\src\ofxCvShortImage.cpp" />
+    <ClCompile Include="src\FaceCam2Ascii.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\..\..\..\of_v0.11.2_vs2017_release\addons\ofxOpenCv\src\ofxCvBlob.h" />
+    <ClInclude Include="..\..\..\..\..\of_v0.11.2_vs2017_release\addons\ofxOpenCv\src\ofxCvColorImage.h" />
+    <ClInclude Include="..\..\..\..\..\of_v0.11.2_vs2017_release\addons\ofxOpenCv\src\ofxCvConstants.h" />
+    <ClInclude Include="..\..\..\..\..\of_v0.11.2_vs2017_release\addons\ofxOpenCv\src\ofxCvContourFinder.h" />
+    <ClInclude Include="..\..\..\..\..\of_v0.11.2_vs2017_release\addons\ofxOpenCv\src\ofxCvFloatImage.h" />
+    <ClInclude Include="..\..\..\..\..\of_v0.11.2_vs2017_release\addons\ofxOpenCv\src\ofxCvGrayscaleImage.h" />
+    <ClInclude Include="..\..\..\..\..\of_v0.11.2_vs2017_release\addons\ofxOpenCv\src\ofxCvHaarFinder.h" />
+    <ClInclude Include="..\..\..\..\..\of_v0.11.2_vs2017_release\addons\ofxOpenCv\src\ofxCvImage.h" />
+    <ClInclude Include="..\..\..\..\..\of_v0.11.2_vs2017_release\addons\ofxOpenCv\src\ofxCvShortImage.h" />
+    <ClInclude Include="..\..\..\..\..\of_v0.11.2_vs2017_release\addons\ofxOpenCv\src\ofxOpenCv.h" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
@@ -122,15 +141,15 @@
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
-      <AdditionalIncludeDirectories>$(ProjectDir)\src\include\pdcurses;$(OPENCV_DIR)\..\..\include</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>$(ProjectDir)\src\include\pdcurses;C:\of_v0.11.2_vs2017_release\addons\ofxOpenCv\libs\opencv\include</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
       <EnableCOMDATFolding>true</EnableCOMDATFolding>
       <OptimizeReferences>true</OptimizeReferences>
       <GenerateDebugInformation>true</GenerateDebugInformation>
-      <AdditionalDependencies>opencv_world460.lib;%(AdditionalDependencies)</AdditionalDependencies>
-      <AdditionalLibraryDirectories>$(OPENCV_DIR)\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>C:\of_v0.11.2_vs2017_release\addons\ofxOpenCv\libs\opencv\lib\vs\Win32\Release;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
     </Link>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
