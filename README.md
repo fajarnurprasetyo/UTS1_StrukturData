@@ -3,15 +3,15 @@ Fajar Nur Prasetyo | 1122100007<br />
 S1 Teknik Informatika
 
 ## Program 1
-Ascii Face Cam
+Ascii Face Cam<br />
 ![alt Ascii Face Cam](https://github.com/fajarnurprasetyo/UTS1_StrukturData/raw/master/img/Screenshot_1.png)
 
 ## Program 2
-Double Pendulum Simulation
+Double Pendulum Simulation<br />
 ![alt Ascii Face Cam](https://github.com/fajarnurprasetyo/UTS1_StrukturData/raw/master/img/Screenshot_2.png)
 
 ## Program 3
-Clasic Snake Game
+Clasic Snake Game<br />
 ![alt Ascii Face Cam](https://github.com/fajarnurprasetyo/UTS1_StrukturData/raw/master/img/Screenshot_2.png)
 
 ## Download File
