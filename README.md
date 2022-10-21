@@ -12,7 +12,7 @@ Double Pendulum Simulation<br />
 
 ## Program 3
 Clasic Snake Game<br />
-![alt Ascii Face Cam](https://github.com/fajarnurprasetyo/UTS1_StrukturData/raw/master/img/Screenshot_2.png)
+![alt Ascii Face Cam](https://github.com/fajarnurprasetyo/UTS1_StrukturData/raw/master/img/Screenshot_3.png)
 
 ## Download File
 <a href="https://github.com/fajarnurprasetyo/UTS1_StrukturData/releases/download/study/UTS1_StrukturData_FajarNurPrasetyo_1122100007.zip" download>HERE!</a>
